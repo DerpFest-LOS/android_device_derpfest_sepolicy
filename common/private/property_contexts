@@ -44,3 +44,6 @@ persist.sys.global.cleartext           u:object_r:system_exported_cleartext_prop
 
 # Screen mirroring disablement
 persist.sysui.disable_mirroring_confirmation_dialog u:object_r:hdmi_config_prop:s0
+
+# USB
+ro.usb.uvc.disable_video_encode_flag   u:object_r:usb_uvc_config_prop:s0
